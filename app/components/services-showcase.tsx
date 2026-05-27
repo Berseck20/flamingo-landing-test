@@ -1,5 +1,4 @@
 import React from 'react';
-import ServiceCard from './service-card';
 
 const ServicesShowcase: React.FC = () => {
   // Landscaping Services
@@ -65,7 +64,7 @@ const ServicesShowcase: React.FC = () => {
                 Landscaping Services
               </h3>
               <p className="text-lg text-emerald-700 max-w-lg">
-                Creating living environments that enhance your property's natural beauty and value.
+                Creating living environments that enhance your propertys natural beauty and value.
               </p>
             </div>
 
@@ -80,8 +79,8 @@ const ServicesShowcase: React.FC = () => {
                         {service.description}
                       </p>
                   </div>
+                </div>
                 ))}
-              </div>
             </div>
           </div>
         </div>
