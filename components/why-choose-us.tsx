@@ -9,14 +9,14 @@ interface Feature {
 
 const ProjectShowcase: React.FC = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-emerald-50 to-white">
-      <div className="max-w-7xl mx-auto px-6 py-24">
+    <div className="w-full py-20 bg-stone-50">
+      <div className="max-w-7xl mx-auto px-6">
         {/* Section Header */}
-        <div className="text-center mb-24">
-          <h2 className="text-4xl md:text-5xl font-serif font-light text-emerald-900 mb-8">
+        <div className="text-center mb-20">
+          <h2 className="text-4xl md:text-5xl font-serif font-light text-stone-900 mb-6">
             Why Choose Flamingo Landscaping
           </h2>
-          <p className="text-lg text-emerald-700 max-w-2xl mx-auto">
+          <p className="text-lg text-stone-700 max-w-2xl mx-auto">
             We bring over 15 years of experience to every project, ensuring your landscape exceeds expectations.
           </p>
         </div>
